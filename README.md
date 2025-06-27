@@ -1,32 +1,16 @@
-# 🌤️ Weather App
+# weather_app
 
-A sleek and responsive Flutter application that fetches real-time weather forecast data using the OpenWeatherMap API. This app allows users to select from multiple cities and view detailed weather metrics including temperature, humidity, wind speed, pressure, and short-term forecasts.
+A new Flutter project.
 
----
+## Getting Started
 
-## 📱 Features
+This project is a starting point for a Flutter application.
 
-- 🌇 City selection with dropdown (Default: Lahore)
-- 🌡️ Displays current temperature in Celsius
-- 🌤️ Weather condition icons (sunny, cloudy, rainy)
-- 📆 5-time-slot forecast using horizontal scroll
-- 💧 Humidity, 🌬️ wind speed, and 📈 pressure info
-- 🔄 Pull to refresh with AppBar refresh icon
-- 💙 Clean, minimal, and card-based UI
+A few resources to get you started if this is your first Flutter project:
 
-## Technologies Used
-- Flutter
-- Dart
-- OpenWeatherMap API
-- HTTP package for API requests
-- Intl package for date formatting
-## 🧠 Tech Stack
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-| Layer        | Technology           |
-|--------------|----------------------|
-| UI           | Flutter (Material)   |
-| State Mgmt   | StatefulWidgets      |
-| API          | OpenWeatherMap API   |
-| HTTP         | `http` package       |
-| Date Format  | `intl` package       |
-
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
