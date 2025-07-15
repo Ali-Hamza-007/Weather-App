@@ -34,7 +34,7 @@ class _MainScreen extends State<MainScreen> {
     final data = jsonDecode(result.body);
 
     if (data['cod'] != '200') {
-      throw 'Internal Error Occurs';
+     throw 'Internal Error Occurs / API Key Disabled';
     }
 
     return data;
